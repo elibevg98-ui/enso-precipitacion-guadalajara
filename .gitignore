@@ -1,0 +1,9 @@
+# Datos originales, intermedios y archivos potencialmente pesados
+datos/raw/
+datos/intermedios/
+
+# Entornos y archivos temporales
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.tmp
