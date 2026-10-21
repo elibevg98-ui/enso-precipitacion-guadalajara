@@ -6,7 +6,7 @@ Este repositorio reúne el material de trabajo sobre la relación descriptiva en
 
 - [`docs/`](docs/): metodología, explicación de los desfases y resultados interpretados.
 - [`figuras/`](figuras/): gráficas usadas en el análisis y una guía de lectura.
-- [`scripts/`](scripts/): espacio reservado para los scripts reproducibles.
+- [`scripts/`](scripts/): programas anual, mensual y de eventos, con exportación PNG/PDF y periodos explícitos.
 - [`datos/`](datos/): guía para documentar y añadir datos; no contiene datos originales todavía.
 
 ## Hallazgos principales
@@ -30,4 +30,7 @@ Estas figuras y textos resumen asociaciones estadísticas de una serie analizada
 
 ## Estado de reproducibilidad
 
-Las figuras y la interpretación están resguardadas. Aún faltan los datos fuente y los scripts que las generaron. Cuando estén disponibles, deberán documentarse en [`datos/README.md`](datos/README.md) y guardarse o enlazarse desde [`scripts/`](scripts/).
+Se incorporaron los tres programas proporcionados por la autora y su ONI ERSSTv6 actualizado hasta JAS de 2026. Los datos locales de precipitación y eventos no están incluidos. Consulte [periodos y climatología](docs/periodos_y_climatologia.md) y [ejecución de programas](scripts/README.md). Las dos figuras originales y sus hallazgos se conservan como resultados previos; no se consideran automáticamente recalculados por agregar los programas.
+
+
+Actualización del 21/10/2026: [cinco figuras verificadas en PNG y PDF](figuras/actualizadas_2026-10-21/), con sus periodos y climatología explícitos. El análisis de eventos está pendiente de corregir la fecha y precipitación del evento 90 de 2026 en la fuente local.
