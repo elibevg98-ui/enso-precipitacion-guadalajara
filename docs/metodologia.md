@@ -9,7 +9,7 @@ Se explora si las condiciones del ENSO, representadas por el Índice Oceánico d
 - **ONI:** indicador usado como referencia de las condiciones ENSO.
 - **Precipitación mensual:** lluvia observada o estimada para Guadalajara.
 - **Anomalía de precipitación:** diferencia de la lluvia mensual respecto a un valor de referencia de ese mismo mes, expresada en milímetros en la figura disponible.
-- **Fase ENSO:** clasificación de los años como El Niño, La Niña o neutral, según el criterio utilizado en el análisis original.
+- **Fase ENSO:** en los programas incorporados, fase del trimestre ONI asignada al mes central; la fase anual predominante es un resumen propio separado.
 
 ## Correlaciones por desfase
 
@@ -40,7 +40,7 @@ Este análisis es descriptivo. Las correlaciones bajas, el traslape entre grupos
 
 ## Información pendiente para reproducción
 
-Para reproducir el análisis se requiere documentar:
+Los programas y periodos se documentan en [periodos y climatología](periodos_y_climatologia.md). Las figuras originales se conservan como antecedentes. Para vincularlas con una ejecución reproducible aún debe comprobarse:
 
 1. La fuente y periodo de la precipitación.
 2. La versión, fuente y periodo del ONI.
@@ -48,3 +48,7 @@ Para reproducir el análisis se requiere documentar:
 4. La regla aplicada para clasificar El Niño, La Niña y neutral.
 5. El tratamiento de valores faltantes y los criterios de inclusión de años.
 6. El software, paquetes y scripts empleados.
+
+## Versión documentada del 21/10/2026
+
+Los programas mensual y de eventos están configurados para 1991–2025, con climatología de precipitación 1991–2020. El programa anual obtiene de su CSV el intervalo disponible, actualmente 1960–2025. El ONI es ERSSTv6 y se conserva hasta JAS de 2026; ese periodo disponible no amplía el estudio de lluvia. Las fases se calculan con ±0.5 °C durante cinco trimestres móviles consecutivos, cruzando años. Véase la documentación de periodos para fórmulas, exclusiones, cobertura, verificación y el dato pendiente del catálogo de eventos.
